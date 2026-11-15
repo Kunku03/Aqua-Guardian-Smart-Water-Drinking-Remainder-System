@@ -1,0 +1,633 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v25he10j1\Arm\assign1\Keypad\keypad.uvproj
+Project File Date:  07/11/2026
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling KPM.c...
+KPM.c(15): warning:  #223-D: function "WRITENIBBLE" declared implicitly
+KPM.c:          WRITENIBBLE(IODIR1,ROW0,15);
+KPM.c:          ^
+KPM.c(15): error:  #20: identifier "ROW0" is undefined
+KPM.c:          WRITENIBBLE(IODIR1,ROW0,15);
+KPM.c:                             ^
+KPM.c(20): warning:  #223-D: function "READNIBBLE" declared implicitly
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:             ^
+KPM.c(20): error:  #20: identifier "COL0" is undefined
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:                               ^
+KPM.c(31): warning:  #223-D: function "READBIT" declared implicitly
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                     ^
+KPM.c(31): error:  #20: identifier "COL0" is undefined
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                                         ^
+KPM.c(43): warning:  #223-D: function "WRITENIBBLE" declared implicitly
+KPM.c:                  WRITENIBBLE(IOPIN1,ROW0,(~(1<<rno)));
+KPM.c:                  ^
+KPM.c(43): error:  #20: identifier "ROW0" is undefined
+KPM.c:                  WRITENIBBLE(IOPIN1,ROW0,(~(1<<rno)));
+KPM.c:                                     ^
+KPM.c(47): error:  #20: identifier "ROW0" is undefined
+KPM.c:          IOCLR1=15<<ROW0;
+KPM.c:                     ^
+KPM.c: KPM.c: 4 warnings, 5 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(3): error:  #5: cannot open source input file "KPM.h": No such file or directory
+KPM_LCD_test.c:   #include "KPM.h"
+KPM_LCD_test.c:                   ^
+KPM_LCD_test.c: KPM_LCD_test.c: 0 warnings, 1 error
+compiling delay.c...
+Target not created
+Build target 'Target 1'
+compiling KPM.c...
+KPM.c(15): warning:  #223-D: function "WRITENIBBLE" declared implicitly
+KPM.c:          WRITENIBBLE(IODIR1,ROW0,15);
+KPM.c:          ^
+KPM.c(15): error:  #20: identifier "ROW0" is undefined
+KPM.c:          WRITENIBBLE(IODIR1,ROW0,15);
+KPM.c:                             ^
+KPM.c(20): warning:  #223-D: function "READNIBBLE" declared implicitly
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:             ^
+KPM.c(20): error:  #20: identifier "COL0" is undefined
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:                               ^
+KPM.c(31): warning:  #223-D: function "READBIT" declared implicitly
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                     ^
+KPM.c(31): error:  #20: identifier "COL0" is undefined
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                                         ^
+KPM.c(43): warning:  #223-D: function "WRITENIBBLE" declared implicitly
+KPM.c:                  WRITENIBBLE(IOPIN1,ROW0,(~(1<<rno)));
+KPM.c:                  ^
+KPM.c(43): error:  #20: identifier "ROW0" is undefined
+KPM.c:                  WRITENIBBLE(IOPIN1,ROW0,(~(1<<rno)));
+KPM.c:                                     ^
+KPM.c(47): error:  #20: identifier "ROW0" is undefined
+KPM.c:          IOCLR1=15<<ROW0;
+KPM.c:                     ^
+KPM.c: KPM.c: 4 warnings, 5 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(10): error:  #20: identifier "KPM" is undefined
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                ^
+KPM_LCD_test.c(10): error:  #18: expected a ")"
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                    ^
+KPM_LCD_test.c(10): error:  #8: missing closing quote
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                        ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c(21): warning:  #12-D: parsing restarts here after previous syntax error
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(21): error:  #65: expected a ";"
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(7): warning:  #177-D: variable "keyv" was declared but never referenced
+KPM_LCD_test.c:         u32 keyv;
+KPM_LCD_test.c:             ^
+KPM_LCD_test.c: KPM_LCD_test.c: 4 warnings, 4 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling KPM.c...
+KPM.c(15): warning:  #223-D: function "WRITENIBBLE" declared implicitly
+KPM.c:          WRITENIBBLE(IODIR1,ROW0,15);
+KPM.c:          ^
+KPM.c(15): error:  #20: identifier "ROW0" is undefined
+KPM.c:          WRITENIBBLE(IODIR1,ROW0,15);
+KPM.c:                             ^
+KPM.c(20): warning:  #223-D: function "READNIBBLE" declared implicitly
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:             ^
+KPM.c(20): error:  #20: identifier "COL0" is undefined
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:                               ^
+KPM.c(31): warning:  #223-D: function "READBIT" declared implicitly
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                     ^
+KPM.c(31): error:  #20: identifier "COL0" is undefined
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                                         ^
+KPM.c(43): warning:  #223-D: function "WRITENIBBLE" declared implicitly
+KPM.c:                  WRITENIBBLE(IOPIN1,ROW0,(~(1<<rno)));
+KPM.c:                  ^
+KPM.c(43): error:  #20: identifier "ROW0" is undefined
+KPM.c:                  WRITENIBBLE(IOPIN1,ROW0,(~(1<<rno)));
+KPM.c:                                     ^
+KPM.c(47): error:  #20: identifier "ROW0" is undefined
+KPM.c:          IOCLR1=15<<ROW0;
+KPM.c:                     ^
+KPM.c: KPM.c: 4 warnings, 5 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(10): error:  #20: identifier "KPM" is undefined
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                ^
+KPM_LCD_test.c(10): error:  #18: expected a ")"
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                    ^
+KPM_LCD_test.c(10): error:  #8: missing closing quote
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                        ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c(21): warning:  #12-D: parsing restarts here after previous syntax error
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(21): error:  #65: expected a ";"
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(7): warning:  #177-D: variable "keyv" was declared but never referenced
+KPM_LCD_test.c:         u32 keyv;
+KPM_LCD_test.c:             ^
+KPM_LCD_test.c: KPM_LCD_test.c: 4 warnings, 4 errors
+compiling delay.c...
+Target not created
+Build target 'Target 1'
+compiling KPM.c...
+KPM.c(3): error:  #5: cannot open source input file "defines.h": No such file or directory
+KPM.c:   #include "defines.h"
+KPM.c:                       ^
+KPM.c: KPM.c: 0 warnings, 1 error
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(10): error:  #20: identifier "KPM" is undefined
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                ^
+KPM_LCD_test.c(10): error:  #18: expected a ")"
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                    ^
+KPM_LCD_test.c(10): error:  #8: missing closing quote
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                        ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c(21): warning:  #12-D: parsing restarts here after previous syntax error
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(21): error:  #65: expected a ";"
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(7): warning:  #177-D: variable "keyv" was declared but never referenced
+KPM_LCD_test.c:         u32 keyv;
+KPM_LCD_test.c:             ^
+KPM_LCD_test.c: KPM_LCD_test.c: 4 warnings, 4 errors
+Target not created
+Build target 'Target 1'
+compiling KPM.c...
+define.h(5): error:  #77-D: this declaration has no storage class or type specifier
+define.h:           WORD=(WORD&(u32)~0xFF<<STARTBIT)| \
+define.h:           ^
+define.h(5): error:  #20: identifier "STARTBIT" is undefined
+define.h:           WORD=(WORD&(u32)~0xFF<<STARTBIT)| \
+define.h:                                  ^
+define.h(5): error:  #28: expression must have a constant value
+define.h:           WORD=(WORD&(u32)~0xFF<<STARTBIT)| \
+define.h:                 ^
+define.h(7): error:  #20: identifier "BYTE" is undefined
+define.h:                                    (BYTE<<STARTBIT)
+define.h:                                     ^
+define.h(17): error:  #65: expected a ";"
+define.h:           WORD=((WORD&~(1<<BIT))|(BITLEVEL<<BIT))
+define.h:           ^
+define.h(51): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+KPM.c(12): warning:  #12-D: parsing restarts here after previous syntax error
+KPM.c:   };
+KPM.c:    ^
+KPM.c(21): error:  #20: identifier "COL0" is undefined
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:             ^
+KPM.c(32): error:  #20: identifier "COL0" is undefined
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                     ^
+KPM.c(48): error:  #20: identifier "ROW0" is undefined
+KPM.c:          IOCLR1=15<<ROW0;
+KPM.c:                     ^
+KPM.c(61): error:  #20: identifier "KPMLUT" is undefined
+KPM.c:          key=KPMLUT[rno][cno];
+KPM.c:              ^
+KPM.c: KPM.c: 2 warnings, 9 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(10): error:  #20: identifier "KPM" is undefined
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                ^
+KPM_LCD_test.c(10): error:  #18: expected a ")"
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                    ^
+KPM_LCD_test.c(10): error:  #8: missing closing quote
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                        ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c(21): warning:  #12-D: parsing restarts here after previous syntax error
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(21): error:  #65: expected a ";"
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(7): warning:  #177-D: variable "keyv" was declared but never referenced
+KPM_LCD_test.c:         u32 keyv;
+KPM_LCD_test.c:             ^
+KPM_LCD_test.c: KPM_LCD_test.c: 4 warnings, 4 errors
+Target not created
+Build target 'Target 1'
+compiling KPM.c...
+define.h(23): error:  #77-D: this declaration has no storage class or type specifier
+define.h:           WORD=(WORD&(u32)~0xF<<STARTBIT)| \
+define.h:           ^
+define.h(23): error:  #20: identifier "STARTBIT" is undefined
+define.h:           WORD=(WORD&(u32)~0xF<<STARTBIT)| \
+define.h:                                 ^
+define.h(23): error:  #28: expression must have a constant value
+define.h:           WORD=(WORD&(u32)~0xF<<STARTBIT)| \
+define.h:                 ^
+define.h(25): error:  #20: identifier "NIBBLE" is undefined
+define.h:                                    (NIBBLE<<STARTBIT)
+define.h:                                     ^
+define.h(34): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+KPM.c(6): error:  #65: expected a ";"
+KPM.c:   u8 KPMLUT[4][4]=
+KPM.c:   ^
+KPM.c(12): warning:  #12-D: parsing restarts here after previous syntax error
+KPM.c:   };
+KPM.c:    ^
+KPM.c(21): error:  #20: identifier "COL0" is undefined
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:             ^
+KPM.c(32): error:  #20: identifier "COL0" is undefined
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                     ^
+KPM.c(48): error:  #20: identifier "ROW0" is undefined
+KPM.c:          IOCLR1=15<<ROW0;
+KPM.c:                     ^
+KPM.c(61): error:  #20: identifier "KPMLUT" is undefined
+KPM.c:          key=KPMLUT[rno][cno];
+KPM.c:              ^
+KPM.c: KPM.c: 2 warnings, 9 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(10): error:  #20: identifier "KPM" is undefined
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                ^
+KPM_LCD_test.c(10): error:  #18: expected a ")"
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                    ^
+KPM_LCD_test.c(10): error:  #8: missing closing quote
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                        ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c(21): warning:  #12-D: parsing restarts here after previous syntax error
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(21): error:  #65: expected a ";"
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(7): warning:  #177-D: variable "keyv" was declared but never referenced
+KPM_LCD_test.c:         u32 keyv;
+KPM_LCD_test.c:             ^
+KPM_LCD_test.c: KPM_LCD_test.c: 4 warnings, 4 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling KPM.c...
+define.h(23): error:  #77-D: this declaration has no storage class or type specifier
+define.h:           WORD=(WORD&(u32)~0xF<<STARTBIT)| \
+define.h:           ^
+define.h(23): error:  #20: identifier "STARTBIT" is undefined
+define.h:           WORD=(WORD&(u32)~0xF<<STARTBIT)| \
+define.h:                                 ^
+define.h(23): error:  #28: expression must have a constant value
+define.h:           WORD=(WORD&(u32)~0xF<<STARTBIT)| \
+define.h:                 ^
+define.h(25): error:  #20: identifier "NIBBLE" is undefined
+define.h:                                    (NIBBLE<<STARTBIT)
+define.h:                                     ^
+define.h(34): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+KPM.c(6): error:  #65: expected a ";"
+KPM.c:   u8 KPMLUT[4][4]=
+KPM.c:   ^
+KPM.c(12): warning:  #12-D: parsing restarts here after previous syntax error
+KPM.c:   };
+KPM.c:    ^
+KPM.c(21): error:  #20: identifier "COL0" is undefined
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:             ^
+KPM.c(32): error:  #20: identifier "COL0" is undefined
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                     ^
+KPM.c(48): error:  #20: identifier "ROW0" is undefined
+KPM.c:          IOCLR1=15<<ROW0;
+KPM.c:                     ^
+KPM.c(61): error:  #20: identifier "KPMLUT" is undefined
+KPM.c:          key=KPMLUT[rno][cno];
+KPM.c:              ^
+KPM.c: KPM.c: 2 warnings, 9 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(10): error:  #20: identifier "KPM" is undefined
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                ^
+KPM_LCD_test.c(10): error:  #18: expected a ")"
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                    ^
+KPM_LCD_test.c(10): error:  #8: missing closing quote
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                        ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c(21): warning:  #12-D: parsing restarts here after previous syntax error
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(21): error:  #65: expected a ";"
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(7): warning:  #177-D: variable "keyv" was declared but never referenced
+KPM_LCD_test.c:         u32 keyv;
+KPM_LCD_test.c:             ^
+KPM_LCD_test.c: KPM_LCD_test.c: 4 warnings, 4 errors
+compiling delay.c...
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling KPM.c...
+define.h(30): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+KPM.c(16): error:  #20: identifier "ROW0" is undefined
+KPM.c:          WRITENIBBLE(IODIR1,ROW0,15);
+KPM.c:          ^
+KPM.c(21): error:  #20: identifier "COL0" is undefined
+KPM.c:          if(READNIBBLE(IOPIN1,COL0)<15)
+KPM.c:             ^
+KPM.c(32): error:  #20: identifier "COL0" is undefined
+KPM.c:                  if(READBIT(IOPIN1,(cno+COL0))==0)
+KPM.c:                     ^
+KPM.c(44): error:  #20: identifier "ROW0" is undefined
+KPM.c:                  WRITENIBBLE(IOPIN1,ROW0,(~(1<<rno)));
+KPM.c:                  ^
+KPM.c(48): error:  #20: identifier "ROW0" is undefined
+KPM.c:          IOCLR1=15<<ROW0;
+KPM.c:                     ^
+KPM.c: KPM.c: 1 warning, 5 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(10): error:  #20: identifier "KPM" is undefined
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                ^
+KPM_LCD_test.c(10): error:  #18: expected a ")"
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                    ^
+KPM_LCD_test.c(10): error:  #8: missing closing quote
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                        ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c(21): warning:  #12-D: parsing restarts here after previous syntax error
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(21): error:  #65: expected a ";"
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(7): warning:  #177-D: variable "keyv" was declared but never referenced
+KPM_LCD_test.c:         u32 keyv;
+KPM_LCD_test.c:             ^
+KPM_LCD_test.c: KPM_LCD_test.c: 4 warnings, 4 errors
+compiling delay.c...
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling KPM.c...
+define.h(30): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+KPM_defines.h(21): warning:  #1-D: last line of file ends without a newline
+KPM_defines.h:   #define COL3 23 //p1.23
+KPM_defines.h:                          ^
+KPM_defines.h: KPM.c: 2 warnings, 0 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(10): error:  #20: identifier "KPM" is undefined
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                ^
+KPM_LCD_test.c(10): error:  #18: expected a ")"
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                    ^
+KPM_LCD_test.c(10): error:  #8: missing closing quote
+KPM_LCD_test.c:         strLCD(KPM TEST");
+KPM_LCD_test.c:                        ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c(21): warning:  #12-D: parsing restarts here after previous syntax error
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(21): error:  #65: expected a ";"
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:   ^
+KPM_LCD_test.c(7): warning:  #177-D: variable "keyv" was declared but never referenced
+KPM_LCD_test.c:         u32 keyv;
+KPM_LCD_test.c:             ^
+KPM_LCD_test.c: KPM_LCD_test.c: 4 warnings, 4 errors
+compiling delay.c...
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling KPM.c...
+define.h(30): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+KPM_defines.h(21): warning:  #1-D: last line of file ends without a newline
+KPM_defines.h:   #define COL3 23 //p1.23
+KPM_defines.h:                          ^
+KPM_defines.h: KPM.c: 2 warnings, 0 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(10): warning:  #223-D: function "strLCD" declared implicitly
+KPM_LCD_test.c:         strLCD("KPM TEST");
+KPM_LCD_test.c:         ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c: KPM_LCD_test.c: 2 warnings, 0 errors
+compiling delay.c...
+linking...
+keypad.axf: Error: L6218E: Undefined symbol CmdLCD (referred from kpm_lcd_test.o).
+keypad.axf: Error: L6218E: Undefined symbol InitLCD (referred from kpm_lcd_test.o).
+keypad.axf: Error: L6218E: Undefined symbol StrLCD (referred from kpm_lcd_test.o).
+keypad.axf: Error: L6218E: Undefined symbol U32LCD (referred from kpm_lcd_test.o).
+keypad.axf: Error: L6218E: Undefined symbol strLCD (referred from kpm_lcd_test.o).
+keypad.axf: Not enough information to list image symbols.
+keypad.axf: Finished: 1 information, 0 warning and 5 error messages.
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+define.h(30): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd.c(16): warning:  #223-D: function "delay_us" declared implicitly
+lcd.c:           delay_us(1);
+lcd.c:           ^
+lcd.c(39): warning:  #223-D: function "delay_us" declared implicitly
+lcd.c:     delay_us(100);
+lcd.c:     ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+linking...
+keypad.axf: Error: L6218E: Undefined symbol strLCD (referred from kpm_lcd_test.o).
+keypad.axf: Not enough information to list image symbols.
+keypad.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c: KPM_LCD_test.c: 1 warning, 0 errors
+linking...
+Program Size: Code=3820 RO-data=32 RW-data=16 ZI-data=1256  
+"keypad.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+define.h(30): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd.c(16): warning:  #223-D: function "delay_us" declared implicitly
+lcd.c:           delay_us(1);
+lcd.c:           ^
+lcd.c(40): warning:  #223-D: function "delay_us" declared implicitly
+lcd.c:     delay_us(100);
+lcd.c:     ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=3820 RO-data=32 RW-data=16 ZI-data=1256  
+"keypad.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=3820 RO-data=32 RW-data=16 ZI-data=1256  
+"keypad.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling KPM.c...
+define.h(30): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+KPM_defines.h(21): warning:  #1-D: last line of file ends without a newline
+KPM_defines.h:   #define COL3 23 //p1.23
+KPM_defines.h:                          ^
+KPM_defines.h: KPM.c: 2 warnings, 0 errors
+compiling KPM_LCD_test.c...
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c: KPM_LCD_test.c: 1 warning, 0 errors
+compiling delay.c...
+compiling lcd.c...
+define.h(30): warning:  #1-D: last line of file ends without a newline
+define.h:   //add more defines as & when required
+define.h:                                        ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd.c(16): warning:  #223-D: function "delay_us" declared implicitly
+lcd.c:           delay_us(1);
+lcd.c:           ^
+lcd.c(40): warning:  #223-D: function "delay_us" declared implicitly
+lcd.c:     delay_us(100);
+lcd.c:     ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=4092 RO-data=32 RW-data=16 ZI-data=1256  
+FromELF: creating hex file...
+".\keypad\keypad.axf" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling KPM.c...
+compiling KPM_LCD_test.c...
+delay.h(3): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(unsigned int);
+delay.h:                              ^
+KPM_LCD_test.c(21): warning:  #1-D: last line of file ends without a newline
+KPM_LCD_test.c:   }
+KPM_LCD_test.c:    ^
+KPM_LCD_test.c: KPM_LCD_test.c: 2 warnings, 0 errors
+compiling lcd.c...
+delay.h(3): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(unsigned int);
+delay.h:                              ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4092 RO-data=32 RW-data=16 ZI-data=1256  
+FromELF: creating hex file...
+".\keypad\keypad.axf" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling KPM.c...
+compiling KPM_LCD_test.c...
+compiling delay.c...
+compiling lcd.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4092 RO-data=32 RW-data=16 ZI-data=1256  
+FromELF: creating hex file...
+".\keypad\keypad.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4092 RO-data=32 RW-data=16 ZI-data=1256  
+FromELF: creating hex file...
+".\keypad\keypad.axf" - 0 Error(s), 1 Warning(s).

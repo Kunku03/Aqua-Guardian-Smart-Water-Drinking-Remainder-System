@@ -1,0 +1,615 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v25he10j1\Arm\MINI PROJECT\mini project.uvproj
+Project File Date:  07/31/2026
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling lcd.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 1 warning, 0 errors
+compiling KPM.c...
+compiling delay.c...
+compiling rtc_main.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: rtc_main.c: 1 warning, 0 errors
+compiling part-1.c...
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                       ^
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                             ^
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                                   ^
+rtc_main.h(3): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(3): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(3): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                       ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                             ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                                   ^
+rtc_main.h(5): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(5): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(5): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(7): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(7): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(7): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(8): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(8): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(8): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(10): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDay(s32 *);
+rtc_main.h:                  ^
+rtc_main.h(11): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCDay(u32);
+rtc_main.h:        ^
+rtc_main.h(12): warning:  #1-D: last line of file ends without a newline
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:                       ^
+rtc_main.h(12): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:        ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 2 warnings, 21 errors
+Target not created
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+mini project.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by part-1.o and rtc_main.o).
+mini project.axf: Error: L6200E: Symbol week multiply defined (by part-1.o and rtc_main.o).
+mini project.axf: Error: L6200E: Symbol main multiply defined (by part-1.o and rtc_main.o).
+mini project.axf: Not enough information to list image symbols.
+mini project.axf: Not enough information to list the image map.
+mini project.axf: Finished: 2 information, 0 warning and 3 error messages.
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 1 warning, 0 errors
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4200 RO-data=32 RW-data=28 ZI-data=1260  
+"mini project.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling lcd.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 1 warning, 0 errors
+compiling KPM.c...
+compiling delay.c...
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4200 RO-data=32 RW-data=28 ZI-data=1260  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                       ^
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                             ^
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                                   ^
+rtc_main.h(3): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(3): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(3): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                       ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                             ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                                   ^
+rtc_main.h(5): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(5): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(5): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(7): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(7): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(7): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(8): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(8): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(8): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(10): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDay(s32 *);
+rtc_main.h:                  ^
+rtc_main.h(11): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCDay(u32);
+rtc_main.h:        ^
+rtc_main.h(12): warning:  #1-D: last line of file ends without a newline
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:                       ^
+rtc_main.h(12): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:        ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(21): error:  #20: identifier "SUN" is undefined
+part-1.c:       SetRTCDay(SUN);
+part-1.c:                 ^
+part-1.c: part-1.c: 2 warnings, 22 errors
+Target not created
+Build target 'Target 1'
+compiling rtc_main.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: rtc_main.c: 1 warning, 0 errors
+compiling part-1.c...
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                       ^
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                             ^
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                                   ^
+rtc_main.h(3): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(3): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(3): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                       ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                             ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                                   ^
+rtc_main.h(5): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(5): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(5): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(7): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(7): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(7): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(8): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(8): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(8): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(10): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDay(s32 *);
+rtc_main.h:                  ^
+rtc_main.h(11): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCDay(u32);
+rtc_main.h:        ^
+rtc_main.h(12): warning:  #1-D: last line of file ends without a newline
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:                       ^
+rtc_main.h(12): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:        ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(21): error:  #20: identifier "SUN" is undefined
+part-1.c:       SetRTCDay(SUN);
+part-1.c:                 ^
+part-1.c: part-1.c: 2 warnings, 22 errors
+Target not created
+Build target 'Target 1'
+compiling part-1.c...
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                       ^
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                             ^
+rtc_main.h(2): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCTimeInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                                   ^
+rtc_main.h(3): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(3): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(3): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCTime(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                       ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                             ^
+rtc_main.h(4): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDateInfo(s32 *,s32 *,s32 *);
+rtc_main.h:                                   ^
+rtc_main.h(5): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(5): error:  #100: duplicate parameter name
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(5): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCDate(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(7): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(7): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(7): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCTimeInfo(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(8): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:                           ^
+rtc_main.h(8): error:  #100: duplicate parameter name
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:                               ^
+rtc_main.h(8): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCDateInfo(u32,u32,u32);
+rtc_main.h:        ^
+rtc_main.h(10): error:  #20: identifier "s32" is undefined
+rtc_main.h:   void GetRTCDay(s32 *);
+rtc_main.h:                  ^
+rtc_main.h(11): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void DisplayRTCDay(u32);
+rtc_main.h:        ^
+rtc_main.h(12): warning:  #1-D: last line of file ends without a newline
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:                       ^
+rtc_main.h(12): error:  #92: identifier-list parameters may only be used in a function definition
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:        ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(21): error:  #20: identifier "SUN" is undefined
+part-1.c:       SetRTCDay(SUN);
+part-1.c:                 ^
+part-1.c: part-1.c: 2 warnings, 22 errors
+Target not created
+Build target 'Target 1'
+compiling part-1.c...
+rtc_main.h(13): warning:  #1-D: last line of file ends without a newline
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:                       ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(21): error:  #20: identifier "SUN" is undefined
+part-1.c:       SetRTCDay(SUN);
+part-1.c:                 ^
+part-1.c: part-1.c: 2 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling rtc_main.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+rtc_main.c(222): error:  #20: identifier "week" is undefined
+rtc_main.c:     StrLCD(week[day]);  
+rtc_main.c:            ^
+rtc_main.c: rtc_main.c: 1 warning, 1 error
+compiling part-1.c...
+rtc_main.h(13): warning:  #1-D: last line of file ends without a newline
+rtc_main.h:   void SetRTCDay(u32);
+rtc_main.h:                       ^
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 2 warnings, 0 errors
+Target not created
+Build target 'Target 1'
+compiling lcd.c...
+lcd_defines.h(28): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 1 warning, 0 errors
+compiling rtc_main.c...
+lcd_defines.h(28): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+rtc_main.c(222): error:  #20: identifier "week" is undefined
+rtc_main.c:     StrLCD(week[day]);  
+rtc_main.c:            ^
+rtc_main.c: rtc_main.c: 1 warning, 1 error
+compiling part-1.c...
+lcd_defines.h(28): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+compiling rtc_main.c...
+lcd_defines.h(28): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: rtc_main.c: 1 warning, 0 errors
+linking...
+.\hex\mini project.axf: Error: L6200E: Symbol week multiply defined (by part-1.o and rtc_main.o).
+.\hex\mini project.axf: Not enough information to list image symbols.
+.\hex\mini project.axf: Not enough information to list the image map.
+.\hex\mini project.axf: Finished: 2 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(28): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4424 RO-data=32 RW-data=56 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling lcd.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 1 warning, 0 errors
+compiling rtc_main.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: rtc_main.c: 1 warning, 0 errors
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4424 RO-data=32 RW-data=56 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4440 RO-data=32 RW-data=56 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4436 RO-data=32 RW-data=56 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling lcd.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: lcd.c: 1 warning, 0 errors
+compiling KPM.c...
+compiling delay.c...
+compiling rtc_main.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: rtc_main.c: 1 warning, 0 errors
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4436 RO-data=32 RW-data=56 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4444 RO-data=32 RW-data=56 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4452 RO-data=32 RW-data=64 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4460 RO-data=32 RW-data=64 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+lcd_defines.h: part-1.c: 1 warning, 0 errors
+linking...
+Program Size: Code=4404 RO-data=32 RW-data=64 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(48): warning:  #223-D: function "CGRAM" declared implicitly
+part-1.c:               CGRAM(0);
+part-1.c:               ^
+part-1.c: part-1.c: 2 warnings, 0 errors
+linking...
+.\hex\mini project.axf: Error: L6218E: Undefined symbol CGRAM (referred from part-1.o).
+.\hex\mini project.axf: Not enough information to list image symbols.
+.\hex\mini project.axf: Finished: 1 information, 0 warning and 1 error messages.
+Target not created
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(46): warning:  #167-D: argument of type "s8 *" is incompatible with parameter of type "u8 *"
+part-1.c:               BuildCGRAM((s8*)cgramLUT,8);
+part-1.c:                          ^
+part-1.c: part-1.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4412 RO-data=32 RW-data=64 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(46): warning:  #167-D: argument of type "s8 *" is incompatible with parameter of type "u8 *"
+part-1.c:               BuildCGRAM((s8*)cgramLUT,8);
+part-1.c:                          ^
+part-1.c: part-1.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4468 RO-data=32 RW-data=64 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(46): warning:  #167-D: argument of type "s8 *" is incompatible with parameter of type "u8 *"
+part-1.c:               BuildCGRAM((s8*)cgramLUT,8);
+part-1.c:                          ^
+part-1.c: part-1.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4440 RO-data=32 RW-data=64 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling part-1.c...
+lcd_defines.h(27): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:                             
+lcd_defines.h:                             ^
+part-1.c(46): warning:  #167-D: argument of type "s8 *" is incompatible with parameter of type "u8 *"
+part-1.c:               BuildCGRAM((s8*)cgramLUT,8);
+part-1.c:                          ^
+part-1.c: part-1.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=4448 RO-data=32 RW-data=64 ZI-data=1256  
+FromELF: creating hex file...
+".\hex\mini project.axf" - 0 Error(s), 2 Warning(s).
